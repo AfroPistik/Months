@@ -1,4 +1,10 @@
 package com.team.model;
 
-public class May {
+import java.util.List;
+
+public class May implements Month {
+    @Override
+    public String getName() {
+        return "Μάιος";
+    }
 }
