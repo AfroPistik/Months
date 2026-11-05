@@ -1,4 +1,11 @@
 package com.team.model;
 
-public class June {
+public class June implements Month 
+{
+
+    @Override
+    public String getName() 
+  {
+        return "Ιούνιος";
+    }
 }
